@@ -3,7 +3,7 @@ title: "Say 'Sul Sul!' to SimSim, A Sims-Inspired Platform for Sandbox Game AI"
 collection: publications
 permalink: /publication/simsim
 excerpt: 'Paper for the SimSim novelty house generator framework'
-date: 2020-25-08
+date: 2020-08-25
 venue: 'AIIDE'
 paperurl: 'https://arxiv.org/abs/2008.11258'
 citation: 'Charity, M., Rajesh, D., Ombok, R., & Soros, L. B. (2020). Say" Sul Sul!" to SimSim, A Sims-Inspired Platform for Sandbox Game AI. arXiv preprint arXiv:2008.11258.'
