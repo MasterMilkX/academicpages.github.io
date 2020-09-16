@@ -3,7 +3,7 @@ title: "Mech-Elites -  Illuminating the Mechanic Space of GVG-AI"
 collection: publications
 permalink: /publication/mech_elites
 excerpt: 'Paper for the level generation based on mechanics of GVG-AI games'
-date: 2020-02-11
+date: 2020-11-02
 venue: 'FDG'
 paperurl: 'https://arxiv.org/abs/2002.04733'
 citation: 'Charity, Megan, et al. "Mech-Elites: Illuminating the Mechanic Space of GVGAI." arXiv preprint arXiv:2002.04733 (2020).'
