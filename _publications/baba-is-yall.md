@@ -3,7 +3,7 @@ title: "Baba is Y'all - Collaborative Mixed-Initiative Level Design"
 collection: publications
 permalink: /publication/baba-is-yall
 excerpt: "Paper for the Baba is Y'all web application"
-date: 2020-01-04
+date: 2020-03-31
 venue: 'CoG'
 paperurl: 'https://arxiv.org/abs/2003.14294'
 citation: "Charity, M., Khalifa, A., & Togelius, J. (2020). Baba is Y'all: Collaborative Mixed-Initiative Level Design. arXiv preprint arXiv:2003.14294."
