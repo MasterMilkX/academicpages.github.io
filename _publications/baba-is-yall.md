@@ -1,5 +1,5 @@
 ---
-title: "Baba is Y'all: Collaborative Mixed-Initiative Level Design"
+title: "Baba is Y'all - Collaborative Mixed-Initiative Level Design"
 collection: publications
 permalink: /publication/baba-is-yall
 excerpt: 'Paper for the Baba is Y'all web application'
