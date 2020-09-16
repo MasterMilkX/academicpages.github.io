@@ -11,30 +11,82 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Computer Science, Virginia Commonwealth University 2019
+  * Minor in Mathematics
+* Ph.D in AI and Game Design, New York University, 2024 (expected)
 
-Work experience
+Research experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* September 2019: PhD Researcher
+  * New York University - Tandon School of Engineering
+  * Studying game design and artificial intelligence under Dr. Julian Togelius
+  * Designed, implemented, and deployed crowd-sourced mixed-initiative level designer
+  * Helped develop Sims simulator framework for generating and populating novel houses
+  * Developed quality-diversity system for creating levels with specific mechanic features
+  * Helped develop game agents implementing GPT-2 transformer to play the word game Codenames
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+
+* Jan 2019: Unity Programmer
+  * MCV moVR - Virtual Reality Physical Therapy Lab
+  * Built 5-game virtual reality game suite for fibromyalgia patients (Build-a-bot)
+  * Prototyped HTC Vive full-body motion capture system for animation
+  * Built pain rating system for viewing work-effort of physical activities
+  * Built card matching VR game for fibromyalgia patients
+  * Prototyped pain categorization and selection VR system
+  
+* June 2018: REU Researcher
+  * University of Minnesota - Twin Cities
+  * Researched in Dr. Victoria Interrante’s virtual reality lab		
+  * Designed and implemented a novel locomotion VR system 
+  * Ran a user-based experiment with 10 participants for the performance of the system
+  
+* June 2016: Undergraduate Researcher
+  * Virginia Commonwealth University
+  * Researched natural language processing under Dr. Bridget McInnes
+  * Developed named-entity recognition system for drug occurrences
+  * Integrated interface for SemMed Database
+  * Helped develop literature based discovery neural network 
+  * Developed latent semantic analysis system for doctor-patient interaction
+
+
+Technical Work Experience
+======
+* August 2018: Teaching Assistant - CMSC 257
+  * Virginia Commonwealth University
+  * Teaching assistant grading projects, aiding with lab assignments, and tutoring during office hours
+
+* August 2015: Teaching Assistant - Game Design Summer Camp			
+  * CodeVA
+  * Assisted with teaching Scratch and game development to elementary school children
+
+* June 2015: Web Services Intern
+  * University of Richmond 
+  * Intern to the back-end web services team monitoring statistics for web traffic
+
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming
+  * Javascript
+  * Python
+  * C#
+  * C++
+  * C
+  * Java
+  * Perl
+  * PHP
+  * MySQL
+
+* Software and Operating Systems
+  * HTML5
+  * Unity
+  * Google Sheets
+  * git
+  * jupyter-notebook
+  * unix
+  * MACOS
+  * Windows
+
 
 Publications
 ======
@@ -42,18 +94,30 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
   
-Teaching
+Leadership/Teamwork Experience
 ======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+June 2018: Computer Science Student Advisory Board member
+* Virginia Commonwealth University
+  * Communicated with both students and professors about state of the department
+  * Volunteer as ambassador at College of Engineering open houses
+  * Promote student-led social clubs and extracurricular activities
+
+May 2013: Lead Programmer
+* FRC Team 1086 - Blue Cheese 
+  * Programmed team’s competition robot in C++ for FRC season
+
+July 2015: FTC Captain									           Jul 2015 - Feb 2016
+* FTC Team 93 - Blue Cheese Jr. 
+  * Captain of the FTC division of Blue Cheese - Team 93 Blue Cheese Jr.		
+
+Oct 2012: Leader of Computer Club Game Design Division
+* Deep Run High School
+  * Founder and leader of the game design division
+  * Organized and managed game development within sub-teams
+
+Oct 2012: CyberPatriot
+* Deep Run High School
+  * JV Captain (freshman and sophomore year)			 					
+  * Veteran member of all-girls team (junior year)
+
