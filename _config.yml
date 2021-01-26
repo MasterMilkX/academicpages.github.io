@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Megan Charity / PhD Website"
+title                    : "M Charity / PhD Website"
 title_separator          : "-"
-name                     : &name "Megan Charity"
+name                     : &name "M Charity"
 description              : &description "PhD Student at NYU studying AI and Game Design"
 url                      : https://mastermilkx.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Megan Charity"
+  name             : "M Charity"
   avatar           : "profile.png"
   bio              : "PhD Student studying AI and Game Design at NYU"
   location         : "New York, New York"
