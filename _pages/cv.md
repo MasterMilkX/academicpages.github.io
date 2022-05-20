@@ -25,7 +25,6 @@ Research experience
   * Developed quality-diversity system for creating levels with specific mechanic features
   * Helped develop game agents implementing GPT-2 transformer to play the word game Codenames
 
-
 * January 2019 - August 2019: Unity Programmer
   * MCV moVR - Virtual Reality Physical Therapy Lab
   * Built 5-game virtual reality game suite for fibromyalgia patients (Build-a-bot)
@@ -51,6 +50,15 @@ Research experience
 
 Technical Work Experience
 ======
+* August 2020 - : Teaching Assistant - CS-GY 
+  * New York University
+  * TA for Artificial Intelligence, AI for Games, and Game Design
+  * Teaching assistant grading projects, aiding with lab assignments, and tutoring during office hours
+
+* August 2018 - May 2019: Teaching Assistant - CMSC 257
+  * Virginia Commonwealth University
+  * Teaching assistant grading projects, aiding with lab assignments, and tutoring during office hours
+
 * August 2018 - May 2019: Teaching Assistant - CMSC 257
   * Virginia Commonwealth University
   * Teaching assistant grading projects, aiding with lab assignments, and tutoring during office hours
@@ -79,6 +87,8 @@ Skills
 
 * Software and Operating Systems
   * HTML5
+  * PICO-8
+  * AWS
   * Unity
   * Google Sheets
   * git
@@ -107,7 +117,7 @@ May 2013 - July 2015: Lead Programmer
 * FRC Team 1086 - Blue Cheese 
   * Programmed team’s competition robot in C++ for FRC season
 
-July 2015 - February 2016: FTC Captain									           Jul 2015 - Feb 2016
+July 2015 - February 2016: FTC Captain									           
 * FTC Team 93 - Blue Cheese Jr. 
   * Captain of the FTC division of Blue Cheese - Team 93 Blue Cheese Jr.		
 
@@ -120,4 +130,6 @@ Oct 2012 - May 2015: CyberPatriot
 * Deep Run High School
   * JV Captain (freshman and sophomore year)			 					
   * Veteran member of all-girls team (junior year)
+
+
 
