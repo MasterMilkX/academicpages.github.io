@@ -1,0 +1,152 @@
+/* load the proggy font */
+@font-face {font-family: Proggy; src: url('ProggySquare.ttf');}
+
+:root{
+    /* --term-color: #55FFFF; */
+    --term-color:#0f0;
+}
+
+body{
+    background-color: #010101;
+    font-family: Proggy, "Fixedsys", "Courier New", monospace, sans-serif;
+}
+a{
+    color:#fff;
+}
+a:hover{
+    color:var(--term-color);
+}
+
+.page-content{
+    color:#fff;
+}
+
+.navbar{
+    z-index: 2;
+}
+.nav-item{
+    font-size:1.2em;
+}
+
+/* draggable divs */
+.dragDiv {
+    position: absolute;
+    z-index: 9;
+    background-color: #000;
+    border: 2px solid var(--term-color);
+    text-align: center;
+    color:#fff;
+    cursor: default;
+}
+  
+.dragDivHeader{
+    padding: 5px;
+    cursor: move;
+    z-index: 10;
+    background-color: var(--term-color);
+    color: #000;
+}
+.dragDivHeader:hover{
+    cursor:grab;
+}
+.dragDivHeader:active{
+    cursor:grabbing;
+}
+
+.dragDivLabel{
+    display: inline-block;
+    position:relative;
+    text-align:left;
+    width:30%;
+}
+.dragHeadCenter{
+    width:58%;
+    display: inline-block;
+}
+
+.dragDivMenu{
+    display: inline-block;
+    position:relative;
+    width:10%;
+    text-align: right;
+    cursor:pointer;
+}
+
+/* profile styling */
+#profile-left{
+    width: 35%;
+    float: left;
+    text-align: center;
+    /* border-right:3px dashed white; */
+}
+#profile-right{
+    float:right;
+    width: 65%;
+    text-align: center;
+}
+
+#headshot{
+    width:60%;
+    margin-top:2em;
+    margin-bottom:2em;
+    margin-left:auto;
+    margin-right:auto;
+    border:1px solid white;
+}
+#milk-stats{
+    border:2px solid white;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:2em;
+}
+#stat-head{
+    background-color:#fff;
+    color:#000;
+    font-size:1.35em;
+}
+#statT{
+    display:table;
+    width: 100%;
+}
+#statT > div{
+    display:table-row;
+    border:1px solid white;
+}
+
+#bio{
+    text-align: justify;
+    width:100%;
+    padding:2em;
+}
+#bio > p > a{
+    color:var(--term-color);
+}
+
+.statL{
+    display:table-cell;
+    width:75%;
+    text-align:center;
+    padding:0.1em;
+    font-size:1.1em;
+    border:1px solid white;
+}
+.statR{
+    display:table-cell;
+    width:25%;
+    text-align:center;
+    padding:0.1em;
+    font-size:1.1em;
+    border:1px solid white;
+}
+
+/* margining */
+.top-buffer05{
+    margin-top: 0.5em;
+}
+.top-buffer1{
+    margin-top: 1em;
+}
+.top-buffer5{
+    margin-top: 5em;
+}
