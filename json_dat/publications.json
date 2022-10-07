@@ -1,0 +1,80 @@
+{
+    "publications":[
+        {
+            "title":"Mech-Elites: Illuminating the Mechanic Space of GVG-AI",
+            "abstract":"This paper introduces a fully automatic method of mechanic illumination for general video game level generation. Using the Constrained MAP-Elites algorithm and the GVG-AI framework, this system generates the simplest tile based levels that contain specific sets of game mechanics and also satisfy playability constraints. We apply this method to illuminate the mechanic space for four different games in GVG-AI: Zelda, Solarfox, Plants, and RealPortals. With this system, we can generate playable levels that contain different combinations of most of the possible mechanics. These levels can later be used to populate game tutorials that teach players how to use the mechanics of the game.",
+            "cite":"Charity, M., Green, M. C., Khalifa, A., & Togelius, J. (2020, September). Mech-elites: Illuminating the mechanic space of gvg-ai. In International Conference on the Foundations of Digital Games (pp. 1-10).",
+            "pdf":"https://arxiv.org/pdf/2002.04733.pdf",
+            "slides":"slides/mech_elites.pdf",
+            "code":"https://github.com/MasterMilkX/GVGAI/tree/atdelphi_plus",
+            "year":2020
+        },
+        {
+            "title":"Baba is Y'all: Collaborative Mixed-Initiative Level Design",
+            "abstract":"We present a collaborative mixed-initiative system for building levels for the puzzle game 'Baba is You'. Unlike previous mixed-initiative systems, Baba is Y'all is designed for collaborative asynchronous creation by multiple users over the internet. The system includes several AI-assisted features to help designers, including a level evolver and an automated player for playtesting. The level archives catalogues levels according to which mechanics are implemented and not implemented, allowing the system to ask users to design levels with specific combinations of mechanics. We describe the operation of the system and the results of small-scale informal user test, and discuss future development paths for this system as well as for collaborative mixed-initiative systems in general.",
+            "cite":"Charity, M., Khalifa, A., & Togelius, J. (2020, August). Baba is y’all: Collaborative mixed-initiative level design. In 2020 IEEE Conference on Games (CoG) (pp. 542-549). IEEE.",
+            "pdf":"https://arxiv.org/pdf/2003.14294.pdf",
+            "slides":"slides/baba_is_yall_v1.pdf",
+            "year":2020
+        },
+        {
+            "title":"Say “Sul Sul!” to SimSim, A Sims-Inspired Platform for Sandbox Game AI",
+            "abstract":"This paper proposes environment design in the life simulation game The Sims as a novel platform and challenge for testing divergent search algorithms. In this domain, which includes a minimal viability criterion, the goal is to furnish a house with objects that satisfy the physical needs of a simulated agent. Importantly, the large number of objects available to the player (whether human or automated) affords a wide variety of solutions to the underlying design problem. Empirical studies in a novel open source simulator called SimSim investigate the ability of novelty-based evolutionary algorithms to effectively generate viable environment designs.",
+            "cite":"Charity, M., Rajesh, D., Ombok, R., & Soros, L. B. (2020, October). Say “Sul Sul!” to SimSim, A Sims-Inspired Platform for Sandbox Game AI. In Proceedings of the AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (Vol. 16, No. 1, pp. 182-188).",
+            "pdf":"https://arxiv.org/pdf/2008.11258.pdf",
+            "slides":"slides/simsim.pdf",
+            "code":"https://github.com/lsoros/simsim",
+            "year":2020
+        },
+        {
+            "title":"Word Autobots: Using Transformers for Word Association in the Game Codenames",
+            "abstract":"Winning the social game Codenames involves combining cooperative and language understanding capabilities. We developed six cooperative bots designed to play the Codemaster and Guesser roles in the Codenames AI Competition and tested them using the provided framework and a round-robin tournament set. The bots are based on term frequency - inverse document frequency (TF-IDF), Naive-Bayes and GPT-2 Transformer word embedding. Additionally, Transformer-based bots were assessed and compared with the concatenation of word2vec and GloVe baseline bot developed by Codenames AI Competition creators. Results from this Transformer implementation rivals the concatenated bot in terms of win rates and guess precision and outperforms it in terms of minimum and average turns taken to win the game and training data load time. Additionally, in an initial evaluation performed with 10 human players, the Transformer agent performed slightly better than the baseline as Codemaster, but worse as a Guesser.",
+            "cite":"Jaramillo, C., Charity, M., Canaan, R., & Togelius, J. (2020, October). Word Autobots: Using transformers for word association in the game codenames. In Proceedings of the AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (Vol. 16, No. 1, pp. 231-237).",
+            "pdf":"https://ojs.aaai.org/index.php/AIIDE/article/view/7435/7292",
+            "code":"https://github.com/MasterMilkX/codenames_autobots",
+            "year":2020
+        },
+        {
+            "title":"Predicting Personas Using Mechanic Frequencies and Game State Traces",
+            "abstract":"We investigate how to efficiently predict play personas based on playtraces. Play personas can be computed by calculating the action agreement ratio between a player and a generative model of playing behavior, a so-called procedural persona. But this is computationally expensive and assumes that appropriate procedural personas are readily available. We present two methods for estimating player persona, one using regular supervised learning and aggregate measures of game mechanics initiated, and another based on sequence learning on a trace of closely cropped gameplay observations. While both of these methods achieve high accuracy when predicting play personas defined by agreement with procedural personas, they utterly fail to predict play style as defined by the players themselves using a questionnaire. This interesting result highlights the value of using computational methods in defining play personas.",
+            "cite":"Green, M. C., Khalifa, A., Charity, M., Bhaumik, D., & Togelius, J. (2022). Predicting Personas Using Mechanic Frequencies and Game State Traces. arXiv preprint arXiv:2203.13351.",
+            "pdf":"https://arxiv.org/pdf/2203.13351.pdf",
+            "code":"https://github.com/mcgreentn/md2_mechanic_analysis",
+            "year":2022
+        },
+        {
+            "title":"Persona-driven Dominant/Submissive Map (PDSM) Generation for Tutorials",
+            "abstract":"In this paper, we present a method for automated persona-driven video game tutorial level generation. Tutorial levels are scenarios in which the player can explore and discover different rules and game mechanics. Procedural personas can guide generators to create content which encourages or discourages certain playstyle behaviors. In this system, we use procedural personas to calculate the behavioral characteristics of levels which are evolved using the quality-diversity algorithm known as Constrained MAP-Elites. An evolved map's quality is determined by its simplicity: the simpler it is, the better it is. Within this work, we show that the generated maps can strongly encourage or discourage different persona-like behaviors and range from simple solutions to complex puzzle-levels, making them perfect candidates for a tutorial generative system.",
+            "cite":"Green, M. C., Khalifa, A., Charity, M., & Togelius, J. (2022). Persona-driven Dominant/Submissive Map (PDSM) Generation for Tutorials. arXiv preprint arXiv:2204.05217.",
+            "pdf":"https://arxiv.org/pdf/2204.05217.pdf",
+            "code":"https://github.com/MasterMilkX/md2-evo",
+            "year":2022
+        },
+        {
+            "title":"Keke AI Competition: Solving puzzle levels in a dynamically changing mechanic space",
+            "abstract":"The Keke AI Competition introduces an artificial agent competition for the game Baba is You - a Sokoban-like puzzle game where players can create rules that influence the mechanics of the game. Altering a rule can cause temporary or permanent effects for the rest of the level that could be part of the solution space. The nature of these dynamic rules and the deterministic aspect of the game creates a challenge for AI to adapt to a variety of mechanic combinations in order to solve a level. This paper describes the framework and evaluation metrics used to rank submitted agents and baseline results from sample tree search agents.",
+            "cite":"Charity, M., & Togelius, J. (2022, August). Keke AI Competition: Solving puzzle levels in a dynamically changing mechanic space. In 2022 IEEE Conference on Games (CoG) (pp. 570-575). IEEE.",
+            "pdf":"https://arxiv.org/pdf/2209.04911.pdf",
+            "slides":"slides/keke_ai_comp.pdf",
+            "system":"http://keke-ai-competition.com/",
+            "code":"https://github.com/MasterMilkX/KekeCompetition",
+            "year":2022
+        },
+        {
+            "title":"Aesthetic Bot: Interactively Evolving Game Maps on Twitter",
+            "abstract":"This paper describes the implementation of the Aesthetic Bot, an automated Twitter account that posts images of small game maps that are either user-made or generated from an evolutionary system. The bot then prompts users to vote via a poll posted in the image's thread for the most aesthetically pleasing map. This creates a rating system that allows for direct interaction with the bot in a way that is integrated seamlessly into a user's regularly updated Twitter content feed. Upon conclusion of the each voting round, the bot learns from the distribution of votes for each map to emulate user preferences for design and visual aesthetic in order to generate maps that would win future vote pairings. We discuss the ongoing results and emerging behaviors that have occurred since the release of this system from both the bot's generation of game maps and the participating Twitter users.",
+            "cite":"Charity, M., & Togelius, J. (2022). Aesthetic Bot: Interactively Evolving Game Maps on Twitter. arXiv preprint arXiv:2208.05017.",
+            "pdf":"https://arxiv.org/pdf/2208.05017.pdf",
+            "system":"https://twitter.com/AestheticBot_22",
+            "year":2022
+        },
+        {
+            "title":"Diversity and Novelty MasterPrints: Generating Multiple DeepMasterPrints for Increased User Coverage",
+            "abstract":"This work expands on previous advancements in genetic fingerprint spoofing via the DeepMasterPrints and introduces Diversity and Novelty MasterPrints. This system uses quality diversity evolutionary algorithms to generate dictionaries of artificial prints with a focus on increasing coverage of users from the dataset. The Diversity MasterPrints focus on generating solution prints that match with users not covered by previously found prints, and the Novelty MasterPrints explicitly search for prints with more that are farther in user space than previous prints. Our multi-print search methodologies outperform the singular DeepMasterPrints in both coverage and generalization while maintaining quality of the fingerprint image output.",
+            "cite":"Charity, M., Memon, N., Jiang, Z., Sen, A., & Togelius, J. (2022, September). Diversity and Novelty MasterPrints: Generating Multiple DeepMasterPrints for Increased User Coverage. In 2022 International Conference of the Biometrics Special Interest Group (BIOSIG) (pp. 1-4). IEEE.",
+            "pdf":"https://arxiv.org/pdf/2209.04909.pdf",
+            "slides":"slides/dn_prints.pdf",
+            "year":2022
+        }
+    ]
+}

@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="styles.css">
 	
 </head>
-<body onload="init()">
+<body onload="initHome()">
 	<div class="container top-buffer5">
 
 		<!-- navigation bar -->
@@ -56,19 +56,17 @@
 		<div class="row top-buffer1">
 			<div class="col-xs-12">
 				<!-- Draggable DIV -->
-				<div class="dragDiv" style="width:50em;top:175px;left:22vw">
+				<div class="dragDiv" style="width:50em;top:175px;left:25%">
 					<!-- Header -->
 					<div class="dragDivHeader">
 							<div class="dragDivLabel">
-								[ MasterMilkX ]
+								[ MASTERMILKX ]
 							</div>
 							<div class="dragHeadCenter"></div>
-							<div class="dragDivMenu">
-								[-]
-							</div>
+							<div class="dragDivMenu" onclick="minimizeWindow(this)">[-]</div>
 					</div>
 					<!-- Contents -->
-					<div>
+					<div class="dragDivContent">
 						<!-- show profile pic and stats -->
 						<div id="profile-left">
 							<div id="headshot">
@@ -77,19 +75,17 @@
 							<div id="milk-stats">
 								<div id="stat-head">STATS</div>
 								<div id="statT">
-									<div><div class="statL"><a href='https://scholar.google.com/citations?user=AKXHtd8AAAAJ&hl=en&oi=ao'>Publications</a></div><div class="statR" id="pubStat">8</div></div>
-									<div><div class="statL"><a href='https://mastermilkx.itch.io/'>Games</a></div><div class="statR" id="gameStat">30</div></div>
-									<div><div class="statL"><a href='systems.html'>Tools</a></div><div class="statR" id="toolStat">5</div></div>
-									<div><div class="statL"><a href='https://github.com/MasterMilkX'>Github Repos</a></div><div class="statR" id="repoStat">48</div></div>
+									<div><div class="statL"><a href='https://scholar.google.com/citations?user=AKXHtd8AAAAJ&hl=en&oi=ao'>Publications</a></div><div class="statR" id="pubStat">?</div></div>
+									<div><div class="statL"><a href='https://mastermilkx.itch.io/'>Itch.io Games</a></div><div class="statR" id="gameStat">35</div></div>
+									<div><div class="statL"><a href='systems.html'>Systems</a></div><div class="statR" id="systemStat">?</div></div>
+									<div><div class="statL"><a href='https://github.com/MasterMilkX'>Github Repos</a></div><div class="statR" id="repoStat">?</div></div>
 								</div>
 							</div>
 						</div>
 						<!-- give basic bio information -->
 						<div id="profile-right">
 							<div id="bio">
-								<p>Hi I’m M Charity (they/them)!<br> I'm a PhD student studying AI and Game Design at the <a href='https://game.engineering.nyu.edu/'>Game Innovation Lab</a> at NYU Tandon.</p>
-								<p>My research focuses on creative mixed-initative systems - how AI and humans can work and learn together to create and design better content than they would individually. Some of the areas of research I’ve explored are in PCG, quality diversity and evolutionary search algorithms, GANs, VAEs, and language models. I’ve also previously done research with virtual reality and natural language processing. I also like to make games, pixel art, music, and comics in my spare time when I’m not absorbing new research papers.</p>
-								<p>You can check out my <a href="https://scholar.google.com/citations?user=ywb5hAoAAAAJ&amp;hl=en">research</a>, <a href="https://mastermilkx.itch.io">recent games</a>, my <a href="https://github.com/MasterMilkX">programs</a>, my <a href="https://mastermilkx.github.io/roguecube/">games</a> that I made in middle school and high school, and my <a href="https://twitter.com/MasterMilkX">Twitter</a> which is full of memes.</p>
+								<!-- typewriter adds JSON data for bio here! -->
 							</div>
 						</div>
 					</div>

@@ -1,0 +1,25 @@
+{
+    "bio" : "Hi I’m M Charity (they/them)!> I'm a PhD student studying AI and Game Design at the $0 at NYU Tandon.>>My research focuses on creative mixed-initative systems - how AI and humans can work and learn together to create and design better content than they would individually. Some of the areas of research I’ve explored are in PCG, quality diversity and evolutionary search algorithms, GANs, VAEs, and language models. I’ve also previously done research with virtual reality and natural language processing. I also like to make games, pixel art, music, and sometimes comics.>> You can check out my $1, my $2, my $3 that I made in middle school and high school, and my $4 which is full of memes.",
+    "links" : [
+        {
+            "url": "https://game.engineering.nyu.edu/",
+            "text": "Game Innovation Lab"
+        },
+        {
+            "url": "https://scholar.google.com/citations?user=ywb5hAoAAAAJ&hl=en",
+            "text": "research"
+        },
+        {
+            "url": "https://mastermilkx.itch.io",
+            "text": "recent games"
+        },
+        {
+            "url": "https://mastermilkx.github.io/roguecube/",
+            "text": "old games"
+        },
+        {
+            "url" : "https://twitter.com/MasterMilkX",
+            "text" : "Twitter"
+        }
+    ]
+}
