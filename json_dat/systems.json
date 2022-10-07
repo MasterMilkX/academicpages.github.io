@@ -1,0 +1,53 @@
+{
+    "systems":[
+        {
+            "name": "Animax",
+            "url": "https://mastermilkx.github.io/animax/",
+            "subtitle":"Spritesheet animation previewer web application",
+            "preview":"sys_previews/animax.gif"
+        },
+        {
+            "name":"Baba is Y'all",
+            "url":"http://equius.gil.engineering.nyu.edu/",
+            "subtitle":"Baba is You collaborative AI level editor",
+            "preview":"sys_previews/baba.gif"
+        },
+        {
+            "name":"Aesthetic Bot",
+            "url":"https://twitter.com/AestheticBot_22",
+            "subtitle":"Twitter Bot that generating aesthetic game maps using poll data",
+            "preview":"sys_previews/aesthetic.png"
+        },
+        {
+            "name":"Mixtape from the Stars",
+            "url":"https://mastermilkx.github.io/mixtape-from-the-stars/",
+            "subtitle":"Creating playlists based on personal astrology house chart",
+            "preview":"sys_previews/mixtape.png"
+        },
+        {
+            "name":"Art Gallery",
+            "url":"https://mastermilkx.github.io/art-gallery/",
+            "subtitle":"Interactive visualization of the art gallery problem",
+            "preview":"sys_previews/gallery.png"
+        },
+        {
+            "name":"Jazz Guitar Study Tool",
+            "url":"https://mastermilkx.github.io/jazz_guitar_study/",
+            "subtitle":"Gamified study tool for identifying major, minor, and ths notes",
+            "preview":"sys_previews/jazz.png"
+        },
+        {
+            "name":"Word Generator",
+            "url":"https://mastermilkx.github.io/wordgenerator/",
+            "subtitle":"Generate fake words based on number of characters",
+            "preview":"sys_previews/word.png"
+        },
+        {
+            "name":"Pixel Penguins",
+            "url":"https://mastermilkx.github.io/pixelpenguins/",
+            "subtitle":"Pixel art editor web application",
+            "preview":"sys_previews/penguins.png"
+        }
+
+    ]
+}

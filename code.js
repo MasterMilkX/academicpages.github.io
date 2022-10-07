@@ -15,8 +15,44 @@ function initHome(){
 function initPub(){
     //add the publications from the JSON file
     addJSONPubs();
+
+    //show which year of publications the user is currently viewing
+    //modified code from: https://stackoverflow.com/questions/53513409/detect-which-section-is-in-view
+    document.querySelector('#pub-right').addEventListener('scroll', function(){
+        var top = this.scrollTop;
+        var bottom = top+this.offsetHeight;
+        var arr = [];
+        
+        this.querySelectorAll("section").forEach(function(div){
+        if (
+            (div.offsetTop < top && top <div.offsetTop+div.offsetHeight) ||
+            (div.offsetTop < bottom && bottom <div.offsetTop+div.offsetHeight)
+        ){
+            arr.push(div.id);
+        }
+        });
+
+        //remove active from each navigation if not viewing
+        let topyear = arr[0].split("-")[2];
+        let navyears = document.getElementById("pub-nav").children;
+        for (let i = 0; i < navyears.length; i++){
+            if(navyears[i].classList.contains("activeYear")){
+                navyears[i].classList.remove("activeYear");
+                navyears[i].innerHTML = navyears[i].innerHTML.replace("&gt; ", "");
+            }
+        }
+
+        // //add active to the top-most viewed year
+        document.getElementById("pn_"+topyear).setAttribute("class","activeYear");
+        document.getElementById("pn_"+topyear).innerHTML = "&gt; " + topyear;
+
+    });
 }
 
+//initialization function called when the systems page loads
+function initSys(){
+    addJSONSys();
+}
 
 
 //////      DRAGGABLE DIV MAIN CONTENT WINDOW      ////////
@@ -118,8 +154,28 @@ function netStats(){
     fetch('https://api.github.com/users/MasterMilkX/repos')
     .then((response) => response.json())
     .then((json) => {
-        document.getElementById("repoStat").previousSibling.innerHTML = "Public Github Repos"
+        //create a new anchor tag pointing to the github page
+        let a = document.createElement("a");
+        a.href = "https://github.com/MasterMilkX";
+        a.target = "_blank";
+        a.innerHTML = "Public Github Repos";
+        document.getElementById("repoStat").previousSibling.innerHTML = "";
+        document.getElementById("repoStat").previousSibling.appendChild(a);
         document.getElementById("repoStat").innerHTML = json.length;
+    });
+
+    //get the publication # from the json
+    fetch('./json_dat/publications.json')
+    .then((response) => response.json())
+    .then((json) =>  {
+        document.getElementById("pubStat").innerHTML = json.publications.length;
+    });
+
+    //get the systems # from the json
+    fetch('./json_dat/systems.json')
+    .then((response) => response.json())
+    .then((json) =>  {
+        document.getElementById("systemStat").innerHTML = json.systems.length;
     });
     
 }
@@ -199,13 +255,55 @@ function addJSONPubs(){
     .then((response) => response.json())
     .then((json) =>  {
         pubJSON = json.publications;
-        console.log(pubJSON)
+        
         //add the publications to the page
+        let curyear = 0;
         for (let i = 0; i < pubJSON.length; i++){
+            //check if a new year (therefore new section)
+            if (pubJSON[i].year != curyear){
+                //add a year to the sidebar navigation
+                let newYear = document.createElement("div");
+                newYear.onclick=function(){
+                    location.href = "#pub-year-"+pubJSON[i].year;
+                };
+                newYear.id = "pn_" + pubJSON[i].year;
+                //first year in list is active
+                if(curyear == 0){
+                    newYear.className = "activeYear";
+                    newYear.innerHTML = "> " + pubJSON[i].year;
+                }else{
+                    newYear.innerHTML = pubJSON[i].year;
+                }
+                
+                curyear = pubJSON[i].year;
+                document.getElementById("pub-nav").appendChild(newYear);
+
+
+                //create a new section
+                let cursec = document.createElement("section");
+                cursec.setAttribute("id", "pub-year-" + curyear);
+                pub_year = addPubYear(curyear);
+                cursec.appendChild(pub_year);
+
+                //add the section
+                document.getElementById("pub-right").appendChild(cursec);
+            }
+            //add the publication to the section
             addPub(pubJSON[i]);
         }
     });
 }
+
+//add a new year section to the publications
+function addPubYear(year){
+    //create the new section
+    let newSection = document.createElement("div");
+    newSection.setAttribute("class", "pubyear");
+    newSection.innerHTML = `-------- ${year} --------`;
+    // document.getElementById("pub-right").appendChild(newSection);
+    return newSection;
+}
+
 
 //add a publication to the page
 function addPub(pubJ){
@@ -271,8 +369,11 @@ function addPub(pubJ){
     pubDiv.appendChild(optionSetDiv);
 
     //add the publication to the page
-    document.getElementById("pub-right").appendChild(pubDiv);
+    // document.getElementById("pub-right").appendChild(pubDiv);
 
+    document.getElementById("pub-year-" + pubJ.year).appendChild(pubDiv);
+
+    // return pubDiv;
 
 }
 
@@ -315,4 +416,99 @@ function deactiveAllBut(po){
 //opens a link in a new tab
 function gotoLink(link){
     window.open(link, '_blank');
+}
+
+
+
+//////       SYSTEMS      ////////
+
+//add the systems from the json file
+function addJSONSys(){
+    //fetch from the json 
+    let sysJSON = null;
+    fetch('./json_dat/systems.json')
+    .then((response) => response.json())
+    .then((json) =>  {
+        let systems = json.systems;
+        //sort the systems alphabetically
+        systems.sort(function(a, b){if(a.name < b.name) { return -1; }});
+
+        //add each system to the page
+        let dirs = ["left","mid","right"];
+        for(let i = 0; i < systems.length; i++){
+            addSys(systems[i],dirs[i%3]);
+        }
+    });
+}
+
+//add a system to the page
+function addSys(sys,dir){
+    //create the main div for the system
+    let sysDiv = document.createElement("div");
+    sysDiv.setAttribute("class", "sysitem");
+
+    //create the header div
+    let headDiv = document.createElement("div");
+    headDiv.setAttribute("class", "syshead");
+    let headTxtDiv = document.createElement("div");
+    headTxtDiv.setAttribute("class", "sysheadtxt");
+
+    //add the title
+    let titleDiv = document.createElement("div");
+    titleDiv.setAttribute("class", "systitle");
+    titleDiv.innerHTML = sys.name;
+    titleDiv.onclick = function(){gotoLink(sys.url)};
+    headTxtDiv.appendChild(titleDiv);
+
+    //add the minimize button
+    let miniDiv = document.createElement("div");
+    miniDiv.setAttribute("class", "sysmini");
+    miniDiv.innerHTML = "[-]";
+    miniDiv.onclick = function(){toggleSysWin(miniDiv)};
+    headTxtDiv.appendChild(miniDiv);
+
+    //add the header text div to the header div
+    headDiv.appendChild(headTxtDiv);
+
+    //add the subtitle
+    let subtitleDiv = document.createElement("div");
+    subtitleDiv.setAttribute("class", "syssubtitle");
+    subtitleDiv.innerHTML = sys.subtitle;
+    headDiv.appendChild(subtitleDiv);
+
+    //add the header to the item div
+    sysDiv.appendChild(headDiv);
+
+    //create the preview
+    let previewDiv = document.createElement("div");
+    previewDiv.setAttribute("class", "syspreview");
+
+    //add the image
+    let im = document.createElement("img");
+    im.setAttribute("class", "sysprevimg");
+    im.setAttribute("src", sys.preview);
+    im.onclick = function(){gotoLink(sys.url)};
+    previewDiv.appendChild(im);
+
+    //add the preview to the item div
+    sysDiv.appendChild(previewDiv);
+
+    //add the system to the page in a certain column
+    document.getElementById("sys-"+dir).appendChild(sysDiv);
+
+
+
+}
+
+//close the preview image when the [_] is clicked (systems window)
+function toggleSysWin(min){
+    let im = min.parentElement.parentElement.parentElement.getElementsByClassName("syspreview")[0];
+    if (min.innerHTML == "[-]"){
+        min.innerHTML = "[□]";
+        im.style.display = "none";
+    }
+    else{
+        min.innerHTML = "[-]";
+        im.style.display = "block";
+    }
 }
