@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<head>
+	<title>M Charity's PhD Website</title>
+
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="styles.css">
+	
+</head>
+<body onload="initHome()">
+	<div class="container top-buffer5">
+
+		<!-- navigation bar -->
+		<div class="row row-no-gutters">
+			<div class="col-xs-12 text-center">
+				<nav class="navbar fixed-top navbar-expand-sm" style="background-color:#000;border:2px solid var(--term-color);">
+					<!-- Brand -->
+					<a class="navbar-brand" href="index.html" style="color:var(--term-color)">M CHARITY'S PHD WEBSITE</a>
+				
+					<!-- Toggler/collapsibe Button -->
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#colNav">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<!-- dummy middle navbar for aligning -->
+					<ul class="navbar-nav mr-auto">
+					</ul>
+				
+					<!-- Navbar links -->
+					<div class="collapse navbar-collapse" id="colNav"> 
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="index.html">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="publications.html">Publications</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="https://mastermilkx.itch.io/">Games</a>
+							</li>
+							<li class="nav-item">
+								<a class='nav-link' href="systems.html">Systems</a>
+							</li>
+							<li class="nav-item">
+								<a class='nav-link' href="CV [10_05_22].pdf">CV</a>
+							</li>
+						</ul>
+					</div>
+					
+				</nav>
+			</div>
+		</div>
+		<!-- end of navigation bar -->
+
+		<!-- main content -->
+		<div class="row top-buffer1">
+			<div class="col-xs-12">
+				<!-- Draggable DIV -->
+				<div class="dragDiv" style="width:50em;top:175px;left:25%">
+					<!-- Header -->
+					<div class="dragDivHeader">
+							<div class="dragDivLabel">
+								[ MASTERMILKX ]
+							</div>
+							<div class="dragHeadCenter"></div>
+							<div class="dragDivMenu" onclick="minimizeWindow(this)">[-]</div>
+					</div>
+					<!-- Contents -->
+					<div class="dragDivContent">
+						<!-- show profile pic and stats -->
+						<div id="profile-left">
+							<div id="headshot">
+								<img src="imgs/profile_2_head_big.png" alt="headshot" style="width:100%">
+							</div>
+							<div id="milk-stats">
+								<div id="stat-head">STATS</div>
+								<div id="statT">
+									<div><div class="statL"><a href='https://scholar.google.com/citations?user=AKXHtd8AAAAJ&hl=en&oi=ao'>Publications</a></div><div class="statR" id="pubStat">?</div></div>
+									<div><div class="statL"><a href='https://mastermilkx.itch.io/'>Itch.io Games</a></div><div class="statR" id="gameStat">35</div></div>
+									<div><div class="statL"><a href='systems.html'>Systems</a></div><div class="statR" id="systemStat">?</div></div>
+									<div><div class="statL"><a href='https://github.com/MasterMilkX'>Github Repos</a></div><div class="statR" id="repoStat">?</div></div>
+								</div>
+							</div>
+						</div>
+						<!-- give basic bio information -->
+						<div id="profile-right">
+							<div id="bio">
+								<!-- typewriter adds JSON data for bio here! -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- end of main content -->
+
+
+	</div>
+	<script src='code.js'></script>
+</body>
+
+</html> 
