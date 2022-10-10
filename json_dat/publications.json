@@ -66,6 +66,8 @@
             "cite":"Charity, M., & Togelius, J. (2022). Aesthetic Bot: Interactively Evolving Game Maps on Twitter. arXiv preprint arXiv:2208.05017.",
             "pdf":"https://arxiv.org/pdf/2208.05017.pdf",
             "system":"https://twitter.com/AestheticBot_22",
+            "code":"https://github.com/MasterMilkX/aesthetic-bot-public",
+            "slides":"slides/aesthetic.pdf",
             "year":2022
         },
         {
