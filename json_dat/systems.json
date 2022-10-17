@@ -47,6 +47,12 @@
             "url":"https://mastermilkx.github.io/pixelpenguins/",
             "subtitle":"Pixel art editor web application",
             "preview":"sys_previews/penguins.png"
+        },
+        {
+            "name":"VoxWorldJS",
+            "url":"https://mastermilkx.github.io/VoxWorldJS/",
+            "subtitle":"Voxel structure rendering web application",
+            "preview":"sys_previews/voxworld.png"
         }
 
     ]
