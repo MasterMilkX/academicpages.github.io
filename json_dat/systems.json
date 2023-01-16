@@ -53,6 +53,18 @@
             "url":"https://mastermilkx.github.io/VoxWorldJS/",
             "subtitle":"Voxel structure rendering web application",
             "preview":"sys_previews/voxworld.png"
+        },
+        {
+            "name":"Cyberdeck Generator",
+            "url":"https://mastermilkx.itch.io/cyberdeck-generator",
+            "subtitle":"Generate a custom cyberdeck for your cyberpunk character",
+            "preview":"sys_previews/cyberdeck.PNG"
+        },
+        {
+            "name":"Movie Palette Generator",
+            "url":"https://mastermilkx.itch.io/palette-generator",
+            "subtitle":"Generate a color palette based on a movie poster",
+            "preview":"sys_previews/palette.PNG"
         }
 
     ]

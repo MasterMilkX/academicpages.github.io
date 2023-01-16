@@ -45,7 +45,7 @@
         {
             "title":"Persona-driven Dominant/Submissive Map (PDSM) Generation for Tutorials",
             "abstract":"In this paper, we present a method for automated persona-driven video game tutorial level generation. Tutorial levels are scenarios in which the player can explore and discover different rules and game mechanics. Procedural personas can guide generators to create content which encourages or discourages certain playstyle behaviors. In this system, we use procedural personas to calculate the behavioral characteristics of levels which are evolved using the quality-diversity algorithm known as Constrained MAP-Elites. An evolved map's quality is determined by its simplicity: the simpler it is, the better it is. Within this work, we show that the generated maps can strongly encourage or discourage different persona-like behaviors and range from simple solutions to complex puzzle-levels, making them perfect candidates for a tutorial generative system.",
-            "cite":"Green, M. C., Khalifa, A., Charity, M., & Togelius, J. (2022). Persona-driven Dominant/Submissive Map (PDSM) Generation for Tutorials. arXiv preprint arXiv:2204.05217.",
+            "cite":"Green, M. C., Khalifa, A., & Togelius, J. (2022, September). Persona-driven Dominant/Submissive Map (PDSM) Generation for Tutorials. In Proceedings of the 17th International Conference on the Foundations of Digital Games (pp. 1-10).",
             "pdf":"https://arxiv.org/pdf/2204.05217.pdf",
             "code":"https://github.com/MasterMilkX/md2-evo",
             "year":2022
@@ -63,7 +63,7 @@
         {
             "title":"Aesthetic Bot: Interactively Evolving Game Maps on Twitter",
             "abstract":"This paper describes the implementation of the Aesthetic Bot, an automated Twitter account that posts images of small game maps that are either user-made or generated from an evolutionary system. The bot then prompts users to vote via a poll posted in the image's thread for the most aesthetically pleasing map. This creates a rating system that allows for direct interaction with the bot in a way that is integrated seamlessly into a user's regularly updated Twitter content feed. Upon conclusion of the each voting round, the bot learns from the distribution of votes for each map to emulate user preferences for design and visual aesthetic in order to generate maps that would win future vote pairings. We discuss the ongoing results and emerging behaviors that have occurred since the release of this system from both the bot's generation of game maps and the participating Twitter users.",
-            "cite":"Charity, M., & Togelius, J. (2022). Aesthetic Bot: Interactively Evolving Game Maps on Twitter. arXiv preprint arXiv:2208.05017.",
+            "cite":"Charity, M., & Togelius, J. (2022, October). Aesthetic Bot: Interactively Evolving Game Maps on Twitter. In Proceedings of the AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (Vol. 18, No. 1, pp. 18-25).",
             "pdf":"https://arxiv.org/pdf/2208.05017.pdf",
             "system":"https://twitter.com/AestheticBot_22",
             "code":"https://github.com/MasterMilkX/aesthetic-bot-public",
@@ -76,6 +76,13 @@
             "cite":"Charity, M., Memon, N., Jiang, Z., Sen, A., & Togelius, J. (2022, September). Diversity and Novelty MasterPrints: Generating Multiple DeepMasterPrints for Increased User Coverage. In 2022 International Conference of the Biometrics Special Interest Group (BIOSIG) (pp. 1-4). IEEE.",
             "pdf":"https://arxiv.org/pdf/2209.04909.pdf",
             "slides":"slides/dn_prints.pdf",
+            "year":2022
+        },
+        {
+            "title":"Baba is Y'all 2.0: Design and Investigation of a Collaborative Mixed-Initiative System",
+            "abstract":"This paper describes a new version of the mixed-initiative collaborative level designing system: Baba is Y'all, as well as the results of a user study on the system. Baba is Y'all is a prototype for AI-assisted game design in collaboration with others. The updated version includes a more user-friendly interface, a better level-evolver and recommendation system, and extended site features. The system was evaluated via a user study where participants were required to play a previously submitted level from the site and then create their own levels using the editor. They reported on their individual process creating the level and their overall experience interacting with the site. The results have shown both the benefits and limitations of this mixed-initiative system and how it can help with creating a diversity of `Baba is You' levels that are both human and AI designed while maintaining their quality.",
+            "cite":"Charity, M., Dave, I., Khalifa, A., & Togelius, J. (2022). Baba is Y'all 2.0: Design and Investigation of a Collaborative Mixed-Initiative System. arXiv preprint arXiv:2203.02035.",
+            "pdf":"https://arxiv.org/pdf/2203.02035.pdf",
             "year":2022
         }
     ]
