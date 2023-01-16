@@ -82,6 +82,7 @@
             "title":"Baba is Y'all 2.0: Design and Investigation of a Collaborative Mixed-Initiative System",
             "abstract":"This paper describes a new version of the mixed-initiative collaborative level designing system: Baba is Y'all, as well as the results of a user study on the system. Baba is Y'all is a prototype for AI-assisted game design in collaboration with others. The updated version includes a more user-friendly interface, a better level-evolver and recommendation system, and extended site features. The system was evaluated via a user study where participants were required to play a previously submitted level from the site and then create their own levels using the editor. They reported on their individual process creating the level and their overall experience interacting with the site. The results have shown both the benefits and limitations of this mixed-initiative system and how it can help with creating a diversity of `Baba is You' levels that are both human and AI designed while maintaining their quality.",
             "cite":"Charity, M., Dave, I., Khalifa, A., & Togelius, J. (2022). Baba is Y'all 2.0: Design and Investigation of a Collaborative Mixed-Initiative System. arXiv preprint arXiv:2203.02035.",
+            "system":"http://equius.gil.engineering.nyu.edu/",
             "pdf":"https://arxiv.org/pdf/2203.02035.pdf",
             "year":2022
         }
