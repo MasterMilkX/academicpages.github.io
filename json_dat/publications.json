@@ -85,6 +85,37 @@
             "system":"http://equius.gil.engineering.nyu.edu/",
             "pdf":"https://arxiv.org/pdf/2203.02035.pdf",
             "year":2022
+        },
+        {
+            "title":"Interactive Latent Variable Evolution for the Generation of Minecraft Structures",
+            "abstract":"The open-world sandbox game Minecraft is well-known for applying a wide array of procedural content generation techniques to create unique and expansive game environments. However, procedurally generated buildings are absent in the Minecraft world, thus players must build their own structures to flesh out their worlds. This build process can be extremely time-consuming and appeals to more creatively-inclined players. To aid players in this process, we introduce a tool combining interactive evolution with latent variable evolution to evolve procedurally generated Minecraft structures to a player’s aesthetic choices. We employ two separate neural network models to generate structures: a 3D generative model for generating the structure design and an encoding model for applying Minecraft textures to the structure’s voxels. We evaluate this tool with a user study incorporating an online interface that allows participants to select, evolve, and guide a population of these generated 3D structures towards a specific design goal.",
+            "cite":"Merino, T., Charity, M., & Togelius, J. (2023, April). Interactive Latent Variable Evolution for the Generation of Minecraft Structures. In Proceedings of the 18th International Conference on the Foundations of Digital Games (pp. 1-8).",
+            "code":"https://github.com/TimMerino1710/Minecraft-Interactive-Evolution",
+            "pdf":"https://dl.acm.org/doi/pdf/10.1145/3582437.3587208",
+            "year":2023
+        },
+        {
+            "title":"A Preliminary Study on a Conceptual Game Feature Generation and Recommendation System",
+            "abstract":"This paper introduces a system used to generate game feature suggestions based on a text prompt. Trained on the game descriptions of almost 60k games, it uses the word embeddings of a small GLoVe model to extract features and entities found in thematically similar games which are then passed through a generator model to generate new features for a user's prompt. We perform a short user study comparing the features generated from a fine-tuned GPT-2 model, a model using the ConceptNet, and human-authored game features. Although human suggestions won the overall majority of votes, the GPT-2 model outperformed the human suggestions in certain games. This system is part of a larger game design assistant tool that is able to collaborate with users at a conceptual level.",
+            "cite":"Charity, M., Bhartia, Y., Zhang, D., Khalifa, A., & Togelius, J. (2023). A Preliminary Study on a Conceptual Game Feature Generation and Recommendation System. arXiv preprint arXiv:2308.13538.",
+            "pdf":"https://arxiv.org/pdf/2308.13538v1.pdf",
+            "year":2023
+        },
+        {
+            "title": "Amorphous Fortress: Observing Emergent Behavior in Multi-Agent FSMs",
+            "abstract":"We introduce a system called Amorphous Fortress -- an abstract, yet spatial, open-ended artificial life simulation. In this environment, the agents are represented as finite-state machines (FSMs) which allow for multi-agent interaction within a constrained space. These agents are created by randomly generating and evolving the FSMs; sampling from pre-defined states and transitions. This environment was designed to explore the emergent AI behaviors found implicitly in simulation games such as Dwarf Fortress or The Sims. We apply the hill-climber evolutionary search algorithm to this environment to explore the various levels of depth and interaction from the generated FSMs.",
+            "cite":"Charity, M., Rajesh, D., Earle, S., & Togelius, J. (2023). Amorphous Fortress: Observing Emergent Behavior in Multi-Agent FSMs. arXiv preprint arXiv:2306.13169. Artificial Life Conference - ALIFE for and from Games Workshop, 2023.",
+            "pdf":"https://arxiv.org/pdf/2306.13169.pdf",
+            "code":"https://anonymous.4open.science/r/amorphous-fortress-BBDC/README.md",
+            "slides":"https://docs.google.com/presentation/d/10p58PAZ86HobWpOna-5DBPJKAFttr4iqCAyAYRLxzNA/edit?usp=sharing",
+            "year":2023
+        },
+        {
+            "title":"The Five-Dollar Model: Generating Game Maps and Sprites from Sentence Embeddings",
+            "abstract":"https://arxiv.org/abs/2308.04052",
+            "cite":"Merino, T., Negri, R., Rajesh, D., Charity, M., & Togelius, J. (2023, October). The Five-Dollar Model: Generating Game Maps and Sprites from Sentence Embeddings. In Proceedings of the AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (Vol. 19, No. 1, pp. 107-115).",
+            "pdf":"https://arxiv.org/abs/2308.04052",
+            "year":2023
         }
     ]
 }
