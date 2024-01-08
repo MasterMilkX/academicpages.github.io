@@ -116,6 +116,13 @@
             "cite":"Merino, T., Negri, R., Rajesh, D., Charity, M., & Togelius, J. (2023, October). The Five-Dollar Model: Generating Game Maps and Sprites from Sentence Embeddings. In Proceedings of the AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (Vol. 19, No. 1, pp. 107-115).",
             "pdf":"https://arxiv.org/abs/2308.04052",
             "year":2023
+        },
+        {
+            "title": "Quality Diversity in the Amorphous Fortress : Evolving for Complexity 0-Player Games",
+            "abstract":"We explore the generation of diverse environments using the Amorphous Fortress (AF) simulation framework. AF defines a set of Finite State Machine (FSM) nodes and edges that can be recombined to control the behavior of agents in the `fortress' grid-world. The behaviors and conditions of the agents within the framework are designed to capture the common building blocks of multi-agent artificial life and reinforcement learning environments. Using quality diversity evolutionary search, we generate diverse sets of environments. These environments exhibit certain types of complexity according to measures of agents' FSM architectures and activations, and collective behaviors. Our approach, Quality Diversity in Amorphous Fortress (QD-AF) generates families of 0-player games akin to simplistic ecological models, and we identify the emergence of both competitive and co-operative multi-agent and multi-species survival dynamics. We argue that these generated worlds can collectively serve as training and testing grounds for learning algorithms.",
+            "cite": "Earle, S., Charity, M., Rajesh, D., Wilson, M., & Togelius, J. (2023). Quality Diversity in the Amorphous Fortress (QD-AF): Evolving for Complexity in 0-Player Games. arXiv preprint arXiv:2312.02231.",
+            "pdf": "https://arxiv.org/abs/2312.02231",
+            "year":2023
         }
     ]
 }
