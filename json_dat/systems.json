@@ -65,6 +65,18 @@
             "url":"https://mastermilkx.itch.io/palette-generator",
             "subtitle":"Generate a color palette based on a movie poster",
             "preview":"sys_previews/palette.PNG"
+        },
+        {
+            "name":"Keke AI Competition",
+            "url":"3.211.136.14",
+            "subtitle":"AI solver competition for the game Baba is You",
+            "preview":"sys_previews/keke.png"
+        },
+        {
+            "name": "Minecraft House Evolver",
+            "url": "ec2-18-233-50-163.compute-1.amazonaws.com",
+            "subtitle":"Evolve Minecraft houses using latent variable evolution",
+            "preview":"sys_previews/minecraft_house.gif"
         }
 
     ]
