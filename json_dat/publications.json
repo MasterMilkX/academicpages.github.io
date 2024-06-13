@@ -123,6 +123,21 @@
             "cite": "Earle, S., Charity, M., Rajesh, D., Wilson, M., & Togelius, J. (2023). Quality Diversity in the Amorphous Fortress (QD-AF): Evolving for Complexity in 0-Player Games. arXiv preprint arXiv:2312.02231.",
             "pdf": "https://arxiv.org/abs/2312.02231",
             "year":2023
+        },
+        {
+            "title": "The Ink Splotch Effect: A Case Study on ChatGPT as a Co-Creative Game Designer",
+            "abstract":"This paper studies how large language models (LLMs) can act as effective, high-level creative collaborators and ``muses'' for game design. We model the design of this study after the exercises artists use by looking at amorphous ink splotches for creative inspiration. Our goal is to determine whether AI-assistance can improve, hinder, or provide an alternative quality to games when compared to the creative intents implemented by human designers. The capabilities of LLMs as game designers are stress tested by placing it at the forefront of the decision making process. Three prototype games are designed across 3 different genres: (1) a minimalist base game, (2) a game with features and game feel elements added by a human game designer, and (3) a game with features and feel elements directly implemented from prompted outputs of the LLM, ChatGPT. A user study was conducted and participants were asked to blindly evaluate the quality and their preference of these games. We discuss both the development process of communicating creative intent to an AI chatbot and the synthesized open feedback of the participants. We use this data to determine both the benefits and shortcomings of AI in a more design-centric role.",
+            "cite":"Anjum, A., Li, Y., Law, N., Charity, M., & Togelius, J. (2024). The Ink Splotch Effect: A Case Study on ChatGPT as a Co-Creative Game Designer. arXiv preprint arXiv:2403.02454.",
+            "pdf":"https://arxiv.org/pdf/2403.02454",
+            "system":"https://mastermilkx.github.io/re-game-hub/",
+            "year":2024
+        },
+        {
+            "title": "Amorphous Fortress: Exploring Emergent Behavior and Complexity in Multi-Agent 0-Player Games",
+            "abstract":"We introduce the Amorphous Fortress---an abstract, open-ended artificial life simulation framework. In this system, entities are represented as finite-state machines (FSMs) which allow for multi-agent interaction within a constrained space. These agents are created by randomly generating and evolving the FSMs; sampling from pre-defined states and transitions. This environment was designed to explore the emergent AI behaviors found implicitly in simulation games such as Dwarf Fortress or The Sims. We apply two evolutionary algorithms to this environment, hill-climber and MAP-Elites, to explore the various levels of depth and interaction from the generated FSMs and to generate diverse sets of environments that exhibit dynamics estimated to be complex by analyses of agents' FSM architecture and activation. This paper combines the work of two previous non-archival workshop papers.",
+            "cite":"Charity, M., Earle, S., Rajesh, D., Wilson, M., & Togelius, J. (2024). Amorphous Fortress: Exploring Emergent Behavior and Complexity in Multi-Agent 0-Player Games. In Proceedings of the IEEE World Congress on Computational Intelligence 2024.",
+            "pdf":"AF_Combo__WCCI.pdf",
+            "year":2024
         }
     ]
 }

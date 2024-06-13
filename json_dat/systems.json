@@ -77,6 +77,12 @@
             "url": "ec2-18-233-50-163.compute-1.amazonaws.com",
             "subtitle":"Evolve Minecraft houses using latent variable evolution",
             "preview":"sys_previews/minecraft_house.gif"
+        },
+        {
+            "name": "Amorphous Fortress Online",
+            "url":"http://amorphous-fortress.xyz/index.php",
+            "subtitle":"Interactive website for multi-agent AI environments and games",
+            "preview":"sys_previews/afo.png"
         }
 
     ]
